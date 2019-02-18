@@ -10,7 +10,7 @@
 function setup() {
   createCanvas(400, 400);
   background(240);
-  //frameRate(1);
+  frameRate(1);
 
   //rectMode(CENTER); // now the first two arguments of a rect are its center point, not corner
 }
@@ -28,10 +28,10 @@ function draw() {
   //rotate(cos(frameCount + noise(frameCount * 0.02)));
   rect(0, 0, 100, 100);
 
-  rotate(radians(frameCount));
-  // and draw the square at the origin
-  fill(0);
-  rect(0, 0, 100, 100);
+  // rotate(radians(frameCount));
+  // // and draw the square at the origin
+  // fill(0);
+  // rect(0, 0, 100, 100);
 }
 
 function keyPressed() {

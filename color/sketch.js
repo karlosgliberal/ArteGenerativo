@@ -110,7 +110,7 @@ function keyPressed() {
   if (key == '5') {
     for (var i = 0; i < tileCountX; i++) {
       hueValues[i] = 360;
-      saturationValues[i] = 100 + mouseX;
+      saturationValues[i] = 100 + mouseX * 2;
       brightnessValues[i] = random(100);
     }
   }

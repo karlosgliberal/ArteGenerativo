@@ -10,6 +10,7 @@ const sketch = p => {
 
   p.setup = () => {
     p.createCanvas(p.windowWidth, p.windowHeight);
+    //p.createCanvas(1000, 1000);
 
     const createGrid = () => {
       const points = [];
@@ -25,6 +26,7 @@ const sketch = p => {
     };
 
     const points = createGrid();
+    //const points = createGrid().filter(() => p.random() < 0.8);
 
     const margin = p.width * 0.9;
 

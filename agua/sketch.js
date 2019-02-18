@@ -43,6 +43,7 @@ function draw() {
   // increment y dimension for noise
   yoff += 0.01;
   vertex(width, height);
+  vertex(mouseY, width / 2);
   vertex(0, height);
   endShape(CLOSE);
 }
