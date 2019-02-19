@@ -1,6 +1,8 @@
 # Arte Generativo
 
-![jpg](assets/marte.jpg)
+|       ![Marte](assets/marte.jpg)        |
+| :-------------------------------------: |
+| _https://themarsvoyage.interzonas.info_ |
 
 ## Resumen
 
