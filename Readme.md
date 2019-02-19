@@ -10,13 +10,9 @@ Cuando el artista entra en colaboración con alguna suerte de autómata creador,
 
 El codigo en su de expresión, permite al artista la búsqueda de la emergencia de ese dialogo entre la maquina y la creación. El arte no es algo que haga una sola persona, sino un proceso puesto en movimiento.
 
-## Descripción del taller
+## Descripción
 
 Estos sketch son el material para un tallter o un espacio para la experimentación sobre procesos generativos, pero tambíen vale como como elementos únicos para arrancar un proceso creativo.
-
-### Rudimentos como formas primitivas
-
-Estos elementos son como primitivos básicos del código generativo. Como los patrones de diseños en el software, o como el toroide, esfera o cubo en el mundo del 3D. El arte generativo básado en codigo tiene una materia prima básica y estos sketch con una pequeña muestra. El arte generativo es infinito, estos rudimentos básicos son un inicio, un primer paso que muchos hemos dados al iniciar un proceso de creación generativo. Los bucles, el ruido, las matrices, los matices, los vertices, los vectores, con nuestro oleo o nuestro pincel, piezas mínimas, con las que dar forma a una creación
 
 ## Install
 
@@ -31,10 +27,14 @@ npm install -g lr-http-server
 
 Una vez en el directorio del repositorio se lanza el comando `lr-http-server` esto levanta un servidor web con livereload y nos permite trabajar con los sketch.
 
+### Rudimentos como formas primitivas
+
+Estos elementos son como primitivos básicos del código generativo. Como los patrones de diseños en el software, o como el toroide, esfera o cubo en el mundo del 3D. El arte generativo básado en codigo tiene una materia prima básica y estos sketch son una pequeña muestra. El arte generativo es infinito, estos rudimentos básicos son un inicio, un primer paso que muchos hemos dados al iniciar un proceso de creación generativo. Los bucles, el ruido, las matrices, los matices, los vertices, los vectores, son nuestro oleo o nuestro pincel, piezas mínimas, con las que dar forma a una creación.
+
 ## Contenido del repositorio
 
-En este taller no se busca una proceso de aprendizaje clásico donde un conjunto de conocimientos son impartidos por una jerarquía, y ese conocimiento se apilan uno sobre otro.
-Estos elementos, estos legajos, estos sketch, son rudimentos, son elementos primitivos con los que buscar las emergencias.
+El contenido de este repositorio se compone de sketch, pequeñas piezas de codigo que conforma unidades básicas de arranque para proyectos generativos.
+Estos elementos, son rudimentos, son elementos primitivos con los que buscar las emergencias.
 
 #### Luna
 
@@ -64,7 +64,7 @@ Estos elementos, estos legajos, estos sketch, son rudimentos, son elementos prim
 
 - Elementos: Pixel, imagen, elipse
 - Descripción: Usar un soporte diferente como base es una pieza es una estrategia clásica, subvertir lo que vemos crear otras perspectiva, este sketch usamos una imagen para jugar con los colores de cada pixel y hacer una reinterpretación
-- Enlace: p5js
+- Enlace: [1](https://www.openprocessing.org/sketch/392202) [2](https://www.openprocessing.org/sketch/624879) [3](https://www.openprocessing.org/sketch/652630)
 
 #### Vectores:
 
@@ -88,16 +88,34 @@ Estos elementos, estos legajos, estos sketch, son rudimentos, son elementos prim
 
 - Elemento: rect, pixel, noise
 - Descripción :En este sketch vemos como usar el noise que devuelve el valor de ruido Perlin en las coordenadas especificadas. El ruido Perlin es un generador de secuencia aleatoria que produce una sucesión armónica ordenada y más natural de números en comparación. El ruido como los armónicos dan un orden poco definido.
-- Enlace: p5js
+- Enlace: [1](https://www.openprocessing.org/sketch/566877)
 
 ## Técnologia
 
-Para el taller vamos a usar [p5js](https://p5js.org/) un proyecto entorno al código creativo ten a manos la referencia [reference/](https://p5js.org/reference/) te será útil
+El arte generativo se relaciona con el arte algorítmico ya que su proliferación ha ido en aumento conforme con la digitalización de la vida. Son muchas las herramientas que han surgido para que artistas puedan explorar estos espacios creativos, [processing](https://processing.org) una de las pioneras incorporó la idea del lienzo en blanco, del borrador.  
+Para este taller o expació de experimentación usaremos [p5js](https://p5js.org/) y en esta es la [reference/](https://p5js.org/reference/) te será útil
 
-## Enlaces
+## Enlaces de interés
 
-[https://en.wikipedia.org/wiki/12_basic_principles_of_animation](https://en.wikipedia.org/wiki/12_basic_principles_of_animation)
-[https://twitter.com/genekogan](https://twitter.com/genekogan)
-[Random](http://www.mywonderland.es/curso_js/processing/pro_mate3.htm)
-
-Karlos G. Liberal aka [Patxangas](https://twitter.com/patxangas)
+- [Casey reas creador de processong](http://reas.com/)
+- [https://processing.org](https://processing.org)
+- [Alba G. Corral](https://blog.albagcorral.com/)
+- [El libro de las sombras](https://thebookofshaders.com)
+- [http://patriciogonzalezvivo.com](http://patriciogonzalezvivo.com)
+- [Matt Deslauriers artista creador de canvas-sketch y muy prolífico](https://www.mattdesl.com)
+- [Curso sobre codigo creativo de Matt Deslauriers](https://frontendmasters.com/courses/canvas-webgl/)
+- [Proceso creativo de @zachlieberma](https://medium.com/@zachlieberman/daily-sketches-in-2017-1b4234b0615d)
+- [12 principios básicos de la animación](https://en.wikipedia.org/wiki/12_basic_principles_of_animation)
+- [genekogan artista especializado en IA y generativo ](https://twitter.com/genekogan)
+- [Random](http://www.mywonderland.es/curso_js/processing/pro_mate3.htm)
+- [p5js como processing pero en javascript](https://p5js.org)
+- [generated.space uno de los repositorios generativos mas interesantes por Kjetil Golid](https://generated.space)
+- [generative-art](https://www.artsy.net/gene/generative-art)
+- [Anders Hoff inconvergent uno de los más prolíficos artistas generativos](https://inconvergent.net/thoughts-on-generative-art/)
+- [Manoloide sus patrones de color son brutales](http://manoloide.com/about.html)
+- [Github de Manoloide BRUTAL](https://github.com/manoloide)
+- [https://generativeartistry.com/](https://generativeartistry.com/)
+- [Patxi Aruajo un maestro](http://patxiaraujo.com/)
+- [Txo!? - elurmaluta un maestro](http://www.elurmaluta.net/home)
+- [Oierbravo compañero del código](https://github.com/oierbravo)
+- [https://www.openprocessing.org/browse/#][https://www.openprocessing.org/browse/#]
