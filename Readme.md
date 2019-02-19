@@ -18,7 +18,7 @@ Estos sketch son el material para un tallter o un espacio para la experimentaci�
 
 ## Install
 
-Solo se necesitara un servidor estatico, lr-http-server por el livereload, un editor para trabajar con javascript
+Solo se necesitara un servidor estatico, simplifica la experimentación. Os recomendamos lr-http-server viene con livereload permite un flujo de trabajo comodos. Un editor para trabajar con javascipt.
 
 ```
 npm install -g lr-http-server
@@ -29,7 +29,9 @@ npm install -g lr-http-server
 
 Una vez en el directorio del repositorio se lanza el comando `lr-http-server` esto levanta un servidor web con livereload y nos permite trabajar con los sketch.
 
-### Rudimentos como formas primitivas
+### Sketch
+
+##### Rudimentos como formas primitivas
 
 Estos elementos son como primitivos básicos del código generativo. Como los patrones de diseños en el software, o como el toroide, esfera o cubo en el mundo del 3D. El arte generativo básado en codigo tiene una materia prima básica y estos sketch son una pequeña muestra. El arte generativo es infinito, estos rudimentos básicos son un inicio, un primer paso que muchos hemos dados al iniciar un proceso de creación generativo. Los bucles, el ruido, las matrices, los matices, los vertices, los vectores, son nuestro oleo o nuestro pincel, piezas mínimas, con las que dar forma a una creación.
 
