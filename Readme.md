@@ -102,6 +102,10 @@ Para este taller o expació de experimentación usaremos [p5js](https://p5js.org
 - [Alba G. Corral](https://blog.albagcorral.com/)
 - [El libro de las sombras](https://thebookofshaders.com)
 - [http://patriciogonzalezvivo.com](http://patriciogonzalezvivo.com)
+
+* [Nature code de Daniel Shiffman](https://natureofcode.com)
+* [Daniel shiffman el mayor divulgador de codigo creativo](https://shiffman.net)
+
 - [Matt Deslauriers artista creador de canvas-sketch y muy prolífico](https://www.mattdesl.com)
 - [Curso sobre codigo creativo de Matt Deslauriers](https://frontendmasters.com/courses/canvas-webgl/)
 - [Proceso creativo de @zachlieberma](https://medium.com/@zachlieberman/daily-sketches-in-2017-1b4234b0615d)
@@ -118,4 +122,4 @@ Para este taller o expació de experimentación usaremos [p5js](https://p5js.org
 - [Patxi Aruajo un maestro](http://patxiaraujo.com/)
 - [Txo!? - elurmaluta un maestro](http://www.elurmaluta.net/home)
 - [Oierbravo compañero del código](https://github.com/oierbravo)
-- [https://www.openprocessing.org/browse/#][https://www.openprocessing.org/browse/#]
+- [https://www.openprocessing.org/browse/#](https://www.openprocessing.org/browse/#)
