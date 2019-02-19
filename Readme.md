@@ -99,6 +99,9 @@ Estos elementos, son rudimentos, son elementos primitivos con los que buscar las
 El arte generativo se relaciona con el arte algorítmico ya que su proliferación ha ido en aumento conforme con la digitalización de la vida. Son muchas las herramientas que han surgido para que artistas puedan explorar estos espacios creativos, [processing](https://processing.org) una de las pioneras incorporó la idea del lienzo en blanco, del borrador.  
 Para este taller o expació de experimentación usaremos [p5js](https://p5js.org/) y en esta es la [reference/](https://p5js.org/reference/) te será útil
 
+#Bikolabs
+[Bikolabs](https://medium.com/bikolabs/qué-es-bikolabs-2d2cb4378064) es un laboratorio un espacio para la creación, especulación y experimentación. Un lugar donde poder trabajar el mestizaje. Este proyecto lo he creado ([karlos g liberal @patxangas](http://medium.com/@patxangas)) con la excusa del la invitación del evento [wecode](https://wecodefest.com) y continuando con el trajo sobre codigo creativo que llevo realindo desde hace varios años.
+
 ## Enlaces de interés
 
 - [Casey reas creador de processong](http://reas.com/)
@@ -106,13 +109,11 @@ Para este taller o expació de experimentación usaremos [p5js](https://p5js.org
 - [Alba G. Corral](https://blog.albagcorral.com/)
 - [El libro de las sombras](https://thebookofshaders.com)
 - [http://patriciogonzalezvivo.com](http://patriciogonzalezvivo.com)
-
-* [Algorimos generativos](https://inconvergent.net/generative/)
-* [Nature code de Daniel Shiffman](https://natureofcode.com)
-* [Daniel shiffman el mayor divulgador de codigo creativo](https://shiffman.net)
-* [Libro diseño generativo](http://www.generative-gestaltung.de/)
-* [fabianmoronzirfas](https://fabianmoronzirfas.me/gestalten-in-code/p5js/)
-
+- [Algorimos generativos](https://inconvergent.net/generative/)
+- [Nature code de Daniel Shiffman](https://natureofcode.com)
+- [Daniel shiffman el mayor divulgador de codigo creativo](https://shiffman.net)
+- [Libro diseño generativo](http://www.generative-gestaltung.de/)
+- [fabianmoronzirfas](https://fabianmoronzirfas.me/gestalten-in-code/p5js/)
 - [Matt Deslauriers artista creador de canvas-sketch y muy prolífico](https://www.mattdesl.com)
 - [Curso sobre codigo creativo de Matt Deslauriers](https://frontendmasters.com/courses/canvas-webgl/)
 - [Proceso creativo de @zachlieberma](https://medium.com/@zachlieberman/daily-sketches-in-2017-1b4234b0615d)
