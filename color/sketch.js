@@ -45,6 +45,7 @@ function draw() {
   // map mouse to grid resolution
   var currentTileCountX = int(map(mX, 0, width, 1, tileCountX));
   var currentTileCountY = int(map(mY, 0, height, 1, tileCountY));
+
   var tileWidth = width / currentTileCountX;
   var tileHeight = height / currentTileCountY;
 

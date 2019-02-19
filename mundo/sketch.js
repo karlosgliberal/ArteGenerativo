@@ -8,7 +8,6 @@ function setup() {
   var c = createCanvas(1000, 1000);
   smooth();
   background(0);
-
   rectMode(CENTER);
   //frameRate(1);
 }
@@ -18,17 +17,23 @@ function draw() {
   noFill();
   translate(width / 2, height / 2);
   push();
-  rotate(frameCount);
-  rect(100 + frameCount * 0.2, 100, 100, 100);
+  rotate(frameCount * mouseX);
+  rect(100 + frameCount * 0.2, 100, map(mouseY, 0, 100, 2, 20), 100);
   pop();
-  // push();
-  // rotate(-frameCount);
-  // rect(100 + frameCount * 0.2, 10, frameCount * 0.02, frameCount * 0.02);
-  // pop();
 }
 
-//
+function keyPressed() {
+  if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+  if (key == 'c') {
+    background(0);
+  }
+}
 
+// push();
+// rotate(-frameCount);
+// rect(100 + frameCount * 0.2, 10, frameCount * 0.02, frameCount * 0.02);
+// pop();
+//rect(100 + frameCount * 0.2, 100, map(mouseY, 0, 100, 2, 20), 100);
 //rect(100, 100, 100, 100);
 // arc(
 //   random(0),

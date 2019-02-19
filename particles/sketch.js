@@ -109,7 +109,7 @@ class Particle {
     this.position = createVector(position.x, position.y);
     this.velocity = createVector(force.x, force.y);
     this.drag = 0.95;
-    this.lifespan = 255;
+    this.lifespan = 25;
   }
 
   update() {

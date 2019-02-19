@@ -23,14 +23,11 @@ function setup() {
 
 function draw() {
   let pointillize = map(mouseX, 0, width, smallPoint, largePoint);
-  let x = int(frameCount);
-  let y = int(frameCount * 0.2);
+  let x = floor(random(img.width));
+  let y = floor(random(img.height));
   let pix = img.get(x, y);
   fill(pix, 128);
-  for (let index = 0; index < img.height; index++) {
-    ellipse(x, y + index, pointillize, pointillize);
-    ellipse(x, y, pointillize, pointillize);
-  }
+  ellipse(x, y, pointillize, pointillize);
 }
 
 function keyPressed() {
