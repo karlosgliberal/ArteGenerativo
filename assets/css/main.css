@@ -49,3 +49,7 @@ canvas {
 #help-content a {
   color: black;
 }
+
+.header {
+  padding: 20px;
+}

@@ -26,11 +26,6 @@ function draw() {
     OPEN
   );
   pop();
-
-  if (frameCount > 2000) {
-    noLoop();
-    save('movida.jpg');
-  }
 }
 
 function keyPressed() {

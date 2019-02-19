@@ -1,10 +1,3 @@
-// declaramos las variables
-/**
- * generates sphere animation
- *
- * s                   : save png
- */
-
 var x, y;
 
 function setup() {
