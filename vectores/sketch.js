@@ -22,6 +22,9 @@ function draw() {
 
   let v3 = p5.Vector.sub(v1, v2);
   drawArrow(v2, v3, 'purple');
+
+  noStroke();
+  text('vector length: ' + v2.mag().toFixed(2), 10, 70, 90, 30);
 }
 
 function drawArrow(base, vec, myColor) {

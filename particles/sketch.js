@@ -118,7 +118,7 @@ class Particle {
     // Slow it down
     this.velocity.mult(this.drag);
     // Fade it out
-    this.lifespan--;
+    this.lifespan++;
   }
 
   // Draw particle and connect it with a line

@@ -21,15 +21,13 @@ function draw() {
   rotate(frameCount);
   rect(100 + frameCount * 0.2, 100, 100, 100);
   pop();
+  // push();
+  // rotate(-frameCount);
+  // rect(100 + frameCount * 0.2, 10, frameCount * 0.02, frameCount * 0.02);
+  // pop();
 }
 
 //
-//rotate(map(cos(0.4 * frameCount), 1, 2, 0, TWO_PI));
-
-// push();
-// rotate(-frameCount);
-// rect(100 + frameCount * 0.2, 100, 100, 100);
-// pop();
 
 //rect(100, 100, 100, 100);
 // arc(

@@ -9,8 +9,8 @@ const sketch = p => {
   const sizeRect = 10;
 
   p.setup = () => {
-    p.createCanvas(p.windowWidth, p.windowHeight);
-    //p.createCanvas(1000, 1000);
+    // p.createCanvas(p.windowWidth, p.windowHeight);
+    p.createCanvas(1000, 1000);
 
     const createGrid = () => {
       const points = [];
@@ -28,7 +28,7 @@ const sketch = p => {
     const points = createGrid();
     //const points = createGrid().filter(() => p.random() < 0.8);
 
-    const margin = p.width * 0.9;
+    const margin = p.width * 0.2;
 
     points.forEach(([u, v]) => {
       const x = p.lerp(margin, p.width - margin, u);
