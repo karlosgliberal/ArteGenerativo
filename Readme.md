@@ -10,7 +10,7 @@ Cuando el artista entra en colaboración con alguna suerte de autómata creador,
 
 El codigo en su de expresión, permite al artista la búsqueda de la emergencia de ese dialogo entre la maquina y la creación. El arte no es algo que haga una sola persona, sino un proceso puesto en movimiento.
 
-## descripción del taller
+## Descripción del taller
 
 Estos sketch son el material para un tallter o un espacio para la experimentación sobre procesos generativos, pero tambíen vale como como elementos únicos para arrancar un proceso creativo.
 
