@@ -96,13 +96,15 @@ Estos elementos, son rudimentos, son elementos primitivos con los que buscar las
 
 ## Técnologia
 
-El arte generativo se relaciona con el arte algorítmico ya que su proliferación ha ido en aumento conforme con la digitalización de la vida. Son muchas las herramientas que han surgido para que artistas puedan explorar estos espacios creativos, [processing](https://processing.org) una de las pioneras incorporó la idea del lienzo en blanco, del borrador.  
-Para este taller o expació de experimentación usaremos [p5js](https://p5js.org/) y en esta es la [reference/](https://p5js.org/reference/) te será útil
+El arte generativo se relaciona con el arte algorítmico ya que su proliferación ha ido en aumento conforme con la digitalización de la vida. Son muchas las herramientas que han surgido para que artistas puedan explorar estos espacios creativos, [processing](https://processing.org) una de las pioneras herramientas que incorporó la idea del lienzo en blanco, del borrador en el lado del código.  
+Para este taller o expació de experimentación usaremos [p5js](https://p5js.org/) solo necesitamos un navegado y un editor de texto y tener a manola [reference](https://p5js.org/reference/).
 
 #Bikolabs
 [Bikolabs](https://medium.com/bikolabs/qué-es-bikolabs-2d2cb4378064) es un laboratorio un espacio para la creación, especulación y experimentación. Un lugar donde poder trabajar el mestizaje. Este proyecto lo he creado ([karlos g liberal @patxangas](http://medium.com/@patxangas)) con la excusa del la invitación del evento [wecode](https://wecodefest.com) y continuando con el trajo sobre codigo creativo que llevo realindo desde hace varios años.
 
 ## Enlaces de interés
+
+Todo lo que he aprendido es gracias a la generosidad el tiempo y la dedicación de personas increibles. Aquí una pequeña lista:
 
 - [Casey reas creador de processong](http://reas.com/)
 - [https://processing.org](https://processing.org)
