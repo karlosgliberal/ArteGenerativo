@@ -29,7 +29,7 @@ npm install -g lr-http-server
 
 Una vez en el directorio del repositorio se lanza el comando `lr-http-server` esto levanta un servidor web con livereload y nos permite trabajar con los sketch.
 
-### Sketch
+## Sketch o bocetos
 
 ##### Rudimentos como formas primitivas
 
@@ -44,55 +44,55 @@ Estos elementos, son rudimentos, son elementos primitivos con los que buscar las
 
 - Elementos: Arco, randomGaussiano
 - En la campana de gaus existe una probabilidad muy baja de que se devuelvan valores lejos de la media; y una mayor probabilidad de que se devuelvan números cerca de la media. En lo generativo, lo aleatorio es un recurso clásico. Tanto la rotación como el arco, se relacionan con la aleatoriedad y el randoGaussian.
-- Enlace: https://github.com/genekogan/p5js-sketches/tree/master/moon
+- Enlace: [1](https://github.com/genekogan/p5js-sketches/tree/master/moon) [2](https://editor.p5js.org/ebenjmuse/sketches/Syn5Rc8nW) [3](https://fabianmoronzirfas.me/gestalten-in-code/chance/popup-circles/)
 
 #### Color
 
 - Elementos: Grid, HSB, constriction
 - En la síntesis de color aditivo como el RGB la interpolación o progresión de color es compleja. Con este sketch mediante HSB en combinación con un sistema de Grid, surgen posibilidades generativas.
-- Enlace: http://www.generative-gestaltung.de/2/
+- Enlace: [1](http://www.generative-gestaltung.de/2/sketches/?01_P/P_1_1_2_01) [2](http://www.generative-gestaltung.de/2/sketches/?01_P/P_1_2_2_01) [3](https://www.openprocessing.org/sketch/623979)
 
 #### Rotación
 
 - Elemento: Rotate
 - La animación básica como la rotación o la traslación es un posible inicio en un proceso generativo. Este sketch es la forma más básica de interacción. La rotación, con el frameRate genera la animación, y la animación ocurre cuando el fondo cambia ¿Y si no se limpia el fondo? ¿O se limpia el fondo de forma translúcida?
-- Enlace: p5js
+- Enlace: [1](https://www.openprocessing.org/sketch/470888) [2](http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_1_1_04)
 
 #### Grid
 
 - Elemento: Rect, interpolación linial (lerp)
 - Cada herramienta o soporte aporta posibilidades y restricciones. P5js se invoca globalmente, pero este sketch como instanciarlo de forma independiente. lo que nos permite es darle un estilo más actual. El skech crea un grid. Un grid da un orden que se puede desordenar, la función lerp nos permite controlar el grid con sus márgenes.
-- Enlace: https://twitter.com/mattdesl
+- Enlace: [1](https://twitter.com/mattdesl) [2](https://generated.space/sketch/tonespace-1/) [3](https://generated.space/sketch/gradient-partitions/) [4](https://generated.space/sketch/comic-book-grid/)
 
 #### Reflejo
 
 - Elementos: Pixel, imagen, elipse
 - Usar un soporte diferente como base es una pieza es una estrategia clásica, subvertir lo que vemos crear otras perspectiva, este sketch usamos una imagen para jugar con los colores de cada pixel y hacer una reinterpretación
-- Enlace: [1](https://www.openprocessing.org/sketch/392202) [2](https://www.openprocessing.org/sketch/624879) [3](https://www.openprocessing.org/sketch/652630)
+- Enlace: [1](https://www.openprocessing.org/sketch/392202) [2](https://www.openprocessing.org/sketch/624879) [3](https://www.openprocessing.org/sketch/652630) [4](https://generated.space/sketch/pixel-sorting-4/) [5](http://www.generative-gestaltung.de/2/sketches/?01_P/P_4_3_2_01)
 
 #### Vectores:
 
 - Elementos: rectangulo
 - Este sketch es la mínima expresión de el trabajo con vectores . La álgebra vectorial es fundamental para emular comportamientos naturales como por la velocidad, la gravedad. Dirección y magnitud
-- Enlace: p5js
+- Enlace: [1](https://p5js.org/examples/hello-p5-flocking.html)
 
 #### Particulas
 
 - Elementos: ellipses, rectas, vectores
 - Los sistemas de partículas nos rodean, desde el polvo a la lluvia trabajar con ellas y entender el orden caótico es un lugar común en el arte generativo, desde composiciones estáticas, hasta animaciones de millones de partículas, es una pieza fundamental.
-  Persona data
+- Enlaces: [1](https://www.youtube.com/watch?v=t3wMScMTmzI) [2](https://generated.space/sketch/space-colonization/) [3](https://p5js.org/examples/simulate-snowflakes.html)
 
 #### Mundo
 
 - Elemento: rect
 - El mundo es el contexto donde el agente generativo se mueve, tener en cuenta los límites o distorsionarlos es una práctica habitual del arte generativo. En este sketch solo rotamos el mundo y lo que contiene dentro.
-- Enlace: p5js
+- Enlace: [1](https://generated.space/sketch/hypotrochoids-2/) [2](https://editor.p5js.org/generative-design/sketches/P_2_2_1_02)
 
 #### Ruido Perlin
 
 - Elemento: rect, pixel, noise
 - En este sketch vemos como usar el noise que devuelve el valor de ruido Perlin en las coordenadas especificadas. El ruido Perlin es un generador de secuencia aleatoria que produce una sucesión armónica ordenada y más natural de números en comparación. El ruido como los armónicos dan un orden poco definido.
-- Enlace: [1](https://www.openprocessing.org/sketch/566877)
+- Enlace: [1](https://www.openprocessing.org/sketch/566877) [2](https://generated.space/sketch/hedgehog-5/) [3][https://generated.space/sketch/noisy-map-trace-2/] [4](http://genekogan.com/code/p5js-perlin-noise/)
 
 ## Técnologia
 
@@ -107,8 +107,11 @@ Para este taller o expació de experimentación usaremos [p5js](https://p5js.org
 - [El libro de las sombras](https://thebookofshaders.com)
 - [http://patriciogonzalezvivo.com](http://patriciogonzalezvivo.com)
 
+* [Algorimos generativos](https://inconvergent.net/generative/)
 * [Nature code de Daniel Shiffman](https://natureofcode.com)
 * [Daniel shiffman el mayor divulgador de codigo creativo](https://shiffman.net)
+* [Libro diseño generativo](http://www.generative-gestaltung.de/)
+* [fabianmoronzirfas](https://fabianmoronzirfas.me/gestalten-in-code/p5js/)
 
 - [Matt Deslauriers artista creador de canvas-sketch y muy prolífico](https://www.mattdesl.com)
 - [Curso sobre codigo creativo de Matt Deslauriers](https://frontendmasters.com/courses/canvas-webgl/)
