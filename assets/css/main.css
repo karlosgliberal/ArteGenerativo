@@ -53,3 +53,41 @@ canvas {
 .header {
   padding: 20px;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.header--icon__wrap {
+  align-items: center;
+}
+
+.header--actions {
+  justify-content: space-between;
+}
+
+.header--back {
+  height: 21px;
+}
+
+.header--back__right {
+  padding-left: 10px;
+}
+
+.header--backw {
+  align-items: center;
+  transition: 0.3s;
+}
+
+.header--backw:hover {
+  opacity: 0.7;
+}
+
+.header--actions a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font: 300 16px "Heebo", sans-serif;
+}
+
+.header--actions a:hover {}
