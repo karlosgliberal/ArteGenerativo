@@ -29,7 +29,7 @@ function setup() {
   background(220);
   // Load the model
   // See a list of all supported models: https://github.com/ml5js/ml5-library/blob/master/src/SketchRNN/models.js
-  model = ml5.SketchRNN('cat', modelReady);
+  model = ml5.SketchRNN('mosquito', modelReady);
 
   // Button to start drawing
   let button = select('#clear');
@@ -41,7 +41,9 @@ function modelReady() {
   canvas.show();
   // sketchRNN will begin when the mouse is released
   canvas.mouseReleased(startSketchRNN);
-  select('#status').html('model ready - sketchRNN will begin after you draw with the mouse');
+  select('#status').html(
+    'model ready - sketchRNN will begin after you draw with the mouse'
+  );
 }
 
 // Reset the drawing
@@ -63,11 +65,11 @@ function startSketchRNN() {
 }
 
 function draw() {
-  // If the mosue is pressed capture the user strokes 
+  // If the mosue is pressed capture the user strokes
   if (mouseIsPressed) {
     // Draw line
     stroke(0);
-    strokeWeight(3.0);
+    strokeWeight(1.0);
     line(pmouseX, pmouseY, mouseX, mouseY);
     // Create a "stroke path" with dx, dy, and pen
     let userStroke = {
@@ -84,8 +86,12 @@ function draw() {
     // If the pen is down, draw a line
     if (previous_pen == 'down') {
       stroke(0);
-      strokeWeight(3.0);
+      strokeWeight(1);
       line(x, y, x + strokePath.dx, y + strokePath.dy);
+      // for (let index = 0; index < 1000; index++) {
+      //   stroke(0, 10);
+      //   line(x, y + index, x + strokePath.dx * index, y + strokePath.dy * noise(index));
+      // }
     }
     // Move the pen
     x += strokePath.dx;
@@ -105,4 +111,3 @@ function draw() {
 function gotStroke(err, s) {
   strokePath = s;
 }
-
