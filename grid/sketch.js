@@ -5,7 +5,7 @@
  */
 
 const sketch = p => {
-  const count = 10;
+  const count = 30;
   const sizeRect = 10;
 
   p.setup = () => {
@@ -25,8 +25,8 @@ const sketch = p => {
       return points;
     };
 
-    const points = createGrid();
-    //const points = createGrid().filter(() => p.random() < 0.8);
+    //    const points = createGrid();
+    const points = createGrid().filter(() => p.random() < 0.8);
 
     const margin = p.width * 0.2;
 
@@ -39,7 +39,7 @@ const sketch = p => {
   };
 
   p.keyPressed = () => {
-    if (p.key == 's' || p.key == 'S') p.saveCanvas(gd.timestamp(), 'png');
+    if (p.key == 's' || p.key == 'S') p.saveCanvas('movida.png');
   };
 };
 
