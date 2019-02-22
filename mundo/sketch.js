@@ -15,10 +15,12 @@ function setup() {
 function draw() {
   stroke(255);
   noFill();
-  translate(width / 2, height / 2);
+
   push();
-  rotate(frameCount * mouseX);
-  rect(100 + frameCount * 0.2, 100, map(mouseY, 0, 100, 2, 20), 100);
+
+  translate(300, 300);
+  rotate(frameCount);
+  rect(100, 100, 100, 100);
   pop();
 }
 
@@ -28,6 +30,15 @@ function keyPressed() {
     background(0);
   }
 }
+
+// noStroke();
+// fill(255, 10);
+
+// push();
+// translate(width / 2, height / 2);
+// rotate(frameCount);
+// rect(100, 100, 100, 100);
+// pop();
 
 // push();
 // rotate(-frameCount);

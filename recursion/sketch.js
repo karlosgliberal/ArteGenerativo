@@ -23,6 +23,7 @@ function drawCircle(x, y, r) {
   noFill();
 
   ellipse(x, y, r, r);
+  //rect(x, y, r, r);
   if (r > 1) {
     // Now we draw two more circles, one to the left
     // and one to the right
