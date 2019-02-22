@@ -92,7 +92,13 @@ Estos elementos, son rudimentos, son elementos primitivos con los que buscar las
 
 - Elemento: rect, pixel, noise
 - En este sketch vemos cómo usar el noise que devuelve el valor de ruido Perlin en las coordenadas especificadas. El ruido Perlin es un generador de secuencia aleatoria que produce una sucesión armónica ordenada y más natural de números en comparación. El ruido como los armónicos dan un orden poco definido.
-- Enlace: [1](https://www.openprocessing.org/sketch/566877) [2](https://generated.space/sketch/hedgehog-5/) [3][https://generated.space/sketch/noisy-map-trace-2/] [4](http://genekogan.com/code/p5js-perlin-noise/)
+- Enlace: [1](https://www.openprocessing.org/sketch/566877) [2](https://generated.space/sketch/hedgehog-5/) [3](https://generated.space/sketch/noisy-map-trace-2/) [4](http://genekogan.com/code/p5js-perlin-noise/)
+
+#### SketchRNN
+
+- Elemento: ml5, quickdraw, rnn
+- El Machine learning en el artegenerativo es un elemento donde muchos artistas estan trabajanod de forma intensa. Este rundimento hace uso de la librearia [ml5js](https://ml5js.org) y de los dibujos [quickdraw](https://quickdraw.withgoogle.com/data/) para crear un ejemplo interativo de pintado.
+- Enlace: [1](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html) [2](https://experiments.withgoogle.com/sketch-rnn-demo) [3](https://ai.googleblog.com/2017/04/teaching-machines-to-draw.html)
 
 ## Tecnología
 
