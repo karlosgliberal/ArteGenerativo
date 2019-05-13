@@ -5,7 +5,7 @@
  */
 
 function setup() {
-  var c = createCanvas(1000, 1000);
+  var c = createCanvas(1000, windowHeight - 150);
   smooth();
   background(0);
   rectMode(CENTER);

@@ -1,7 +1,7 @@
 var x, y;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight - 150);
   // declaramos x e y en el centro
   x = width / 2;
   y = height;
