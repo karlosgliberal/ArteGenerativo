@@ -25,7 +25,7 @@ function draw() {
     // Set the vertex
     vertex(x, y);
     // Increment x dimension for noise
-    xoff += 0.05;
+    xoff += 0.5;
   }
   // increment y dimension for noise
   yoff += 0.01;

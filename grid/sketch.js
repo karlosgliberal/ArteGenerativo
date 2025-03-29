@@ -5,7 +5,7 @@
  */
 
 const sketch = p => {
-  const count = 30;
+  const count = 100;
   const sizeRect = 10;
 
   p.setup = () => {
@@ -25,10 +25,10 @@ const sketch = p => {
       return points;
     };
 
-    //    const points = createGrid();
+    //const points = createGrid();
     const points = createGrid().filter(() => p.random() < 0.8);
 
-    const margin = p.width * 0.2;
+    const margin = p.width * 0.02;
 
     points.forEach(([u, v]) => {
       const x = p.lerp(margin, p.width - margin, u);

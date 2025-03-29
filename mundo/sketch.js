@@ -14,13 +14,14 @@ function setup() {
 
 function draw() {
   stroke(255);
-  noFill();
+  fill(200, 100);
 
   push();
 
   translate(300, 300);
   rotate(frameCount);
-  rect(100, 100, 100, 100);
+  // rect(100, 100, 100, 100);
+  rect(100 + frameCount * 0.2, 10, frameCount * 0.02, frameCount * 0.02);
   pop();
 }
 

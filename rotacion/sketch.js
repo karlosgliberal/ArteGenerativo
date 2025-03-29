@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(240);
+  //background(240, 10);
   // move the origin to the pivot point
   translate(150, 150);
 

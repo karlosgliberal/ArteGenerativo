@@ -16,6 +16,7 @@ function draw() {
   ellipse(x, y, 24, 24);
 
   y = y - 1;
+  x = x + random(-50, 50);
 
   // Lo reseteamos si llega a cero
   if (y < 0) {
